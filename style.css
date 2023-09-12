@@ -61,3 +61,14 @@
 .photo {
   flex-shrink: 0;
 }
+main > div:nth-child(2n) {
+  background-color: white;
+}
+.contact > img {
+  border: 3px solid lightblue;
+}
+main > div > div > img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: ease-in;
+}
